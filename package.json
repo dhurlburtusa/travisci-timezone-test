@@ -1,0 +1,27 @@
+{
+  "name": "travisci-timezone-test",
+  "version": "0.0.0-alpha",
+  "private": true,
+  "author": {
+    "name": "Danny Hurlburt",
+    "url": "https://github.com/dhurlburtusa"
+  },
+  "description": "A project to test how to set the timezone in Travis CI and to test its effects for different build environments.",
+  "homepage": "https://github.com/dhurlburtusa/travisci-timezone-test#readme",
+  "keywords": [
+    "travisci",
+    "timezone"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dhurlburtusa/travisci-timezone-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dhurlburtusa/travisci-timezone-test/issues"
+  },
+  "scripts": {
+    "test": "node index.js"
+  }
+}
