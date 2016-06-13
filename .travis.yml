@@ -1,6 +1,8 @@
 language: node_js
 node_js:
   - "5"
-script: ./listtz.sh
+script:
+  - npm test
+  - ./listtz.sh
 env:
   - TZ=America/Denver
