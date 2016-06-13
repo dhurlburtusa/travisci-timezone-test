@@ -46,3 +46,33 @@ print(dstDt);
 
 dstDt = new Date(stdDt.getTime() + 2);
 print(dstDt);
+
+
+stdDt = new Date(1976, 3, 11, 1, 59, 59, 999);
+print(stdDt);
+
+dstDt = new Date(stdDt.getTime() + 1);
+print(dstDt);
+
+dstDt = new Date(stdDt.getTime() + 2);
+print(dstDt);
+
+
+stdDt = new Date(1976, 3, 18, 1, 59, 59, 999);
+print(stdDt);
+
+dstDt = new Date(stdDt.getTime() + 1);
+print(dstDt);
+
+dstDt = new Date(stdDt.getTime() + 2);
+print(dstDt);
+
+
+stdDt = new Date(1976, 3, 25, 1, 59, 59, 999);
+print(stdDt);
+
+dstDt = new Date(stdDt.getTime() + 1);
+print(dstDt);
+
+dstDt = new Date(stdDt.getTime() + 2);
+print(dstDt);
