@@ -6,4 +6,18 @@ script:
 #  - ./listtz.sh
 env:
   - TZ=America/Anchorage
+  - TZ=America/Chicago
   - TZ=America/Denver
+  - TZ=America/Detroit
+  - TZ=America/Fort_Wayne
+  - TZ=America/Honolulu
+  - TZ=America/Indiana
+  - TZ=America/Indianapolis
+  - TZ=America/Kentucky
+  - TZ=America/Louisville
+  - TZ=America/Los_Angeles
+  - TZ=America/New_York
+  - TZ=America/Nome
+  - TZ=America/North_Dakota
+  - TZ=America/Phoenix
+  - TZ=America/Shiprock
