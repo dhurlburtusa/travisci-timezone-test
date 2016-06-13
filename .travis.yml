@@ -5,4 +5,5 @@ script:
   - npm test
   - ./listtz.sh
 env:
+  - TZ=America/Anchorage
   - TZ=America/Denver
