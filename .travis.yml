@@ -3,7 +3,7 @@ node_js:
   - "5"
 script:
   - npm test
-  - ./listtz.sh
+#  - ./listtz.sh
 env:
   - TZ=America/Anchorage
   - TZ=America/Denver
