@@ -1,23 +1,27 @@
 language: node_js
 node_js:
-  - "5"
+  - '5'
 script:
   - npm test
 #  - ./listtz.sh
 env:
-  - TZ=America/Anchorage
-  - TZ=America/Chicago
-  - TZ=America/Denver
-  - TZ=America/Detroit
-  - TZ=America/Fort_Wayne
-  - TZ=America/Honolulu
-  - TZ=America/Indiana
-  - TZ=America/Indianapolis
-  - TZ=America/Kentucky
-  - TZ=America/Louisville
-  - TZ=America/Los_Angeles
-  - TZ=America/New_York
-  - TZ=America/Nome
-  - TZ=America/North_Dakota
-  - TZ=America/Phoenix
-  - TZ=America/Shiprock
+  global:
+    - secure: aN3y4KOwHkNmy9q5cPPFpywG3JTbRHkQss0nqFSIPcaXIWOoE4bMjS50ftFOyHxPrZ67xhkIV7a1qW15IjxW3xPmntbqhtWkOrTwTLRbmt2awhqf39HYkIz8ZmGiPiME4wUl4z4RLr4gRjj0FPVORkyfqNi2RGRLt08d4CD8sq+Uz1x5zFqeytDyatX7WxEd6BCwkV/8CsamMv8tpGe3Ky1nCG2Aetc0eFhCU4ZxFiAhYlilBEaXFEVz7oBtFAnQOkD0D00E8LycEhiZiE6ppTkjZ+G3f+U5ciHkyuW+GrIs2KWukZ5msgYmxSpdeVl+yd2e7O5m9Ah1Ea5RMXwTiF6JI5tmKZjAxrM4NVl3Kq/fVwhnep9DPdHAEU6lEczECepzPB2rWBcljxIE4fht3PnNhNzY9cc2UF7lJiDhXjW+mw496iyG4tkLbrr2ybwWyHwNeT0zSxKfGn9gPIa7j+PaQWl2zR85T7HOGO3VptW3ashIri+iYJVLZ538LOIJ02PO8Z1lEMiEoipIVuMuWtHDtM2EyaAWfuItFe4UVyTInyQNQugadg6DstuH77G31OUG5O3KMiE6Nggb/imoHMWaMKvQjHHHPgxHsEl8xOd+olaz4CddoomcyOK09uP27mlTf0yR7qzq77ybj1ZeGQcY8timPJgrczHgP2r6j8o=
+    - secure: vO+yp3GxwODptDT43HnZQVYHA/JT4DurdxICrBI3DQC+bT/tufkCAAlyyAgfxxM81X/PVLOMGPSZMKliSRseOq2t21pr1Drayt4vd1QFiycNk2v3SwEq8iVadsZtahzd5g17UXlOvuGOLcBMpBU7WAQnUIPf/GmuQ5QHh3QoVK5nYJuRdeLAkpR4rzNRQiAPDVWbdg3+hj55lPMld02nfm7xqpbT4tfc2Fx+C0INN/HH2WQZGZWhNqJDssKrxG4kupZVKNmRZeA/Aov7X28KNIIPb0+mldFZLxUQV+6UBpln/9b52ycSi/wBqq/DzLOiIqscJWUtAGaytaLzkcEj5CRIa7dfZeKKtIj9d/KB9Cx2EsKprS7I/5oitfoQy6JjhdY5ypXz4vV82fFaEvzdQkgpXBAxWBTu+tc8bVPYbtHTGPJ0an4pv2idDDdSZtTezoBdoSZcYrP2aj6H42bnDlD0nlHVwLIeSacxhn2hEBWe5bz81P2x6cOU2TcqF5cM0OwEbxYegHqQtEpx7+5YAgJ7P0lbi62czdnIEts81NmuoAtagmphok9F96PFr/ha51Ls0qnCTJXiWiEYm3Nxpmdu3UIGm1IFiK0U5Bb0IOcILdLJePL4SQGh8Q8JklRex/RuKNPH0c135zfv4FYOniBohxdCsaCO55POyYubbuE=
+  matrix:
+    - TZ=America/Anchorage
+    - TZ=America/Chicago
+    - TZ=America/Denver
+    - TZ=America/Detroit
+    - TZ=America/Fort_Wayne
+    - TZ=America/Honolulu
+    - TZ=America/Indiana
+    - TZ=America/Indianapolis
+    - TZ=America/Kentucky
+    - TZ=America/Louisville
+    - TZ=America/Los_Angeles
+    - TZ=America/New_York
+    - TZ=America/Nome
+    - TZ=America/North_Dakota
+    - TZ=America/Phoenix
+    - TZ=America/Shiprock
