@@ -103,4 +103,5 @@ var testDates = [
 for (var i = 0, iLen = testDates.length; i < iLen; ++i) {
   var dt = createDt(testDates[i]);
   print(dt);
+  console.log('');
 }
