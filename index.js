@@ -6,6 +6,24 @@ function createDt(dateParts) {
   return new Date(dp[0], dp[1], dp[2], dp[3], dp[4], dp[5], dp[6]);
 }
 
+function printIntlDateFormatInfo() {
+  var info = { timeZone: 'unknown' },
+      format;
+  
+  if (Intl && typeof Intl.DateTimeFormat == 'function') {
+    format = Intl.DateTimeFormat();
+    
+    if (format) {
+      if (typeof format.resolvedOptions == 'function') {
+        info = format.resolvedOptions();
+      } else if (format.resolved) {
+        info = format.resolved;
+      }
+    }
+  }
+  console.dir(info);
+}
+
 function print(dt) {
   console.log('Timezone Offset: ' + dt.getTimezoneOffset());
   console.log('toDateString: ' + dt.toDateString());
@@ -105,3 +123,5 @@ for (var i = 0, iLen = testDates.length; i < iLen; ++i) {
   print(dt);
   console.log('');
 }
+
+printIntlDateFormatInfo();
