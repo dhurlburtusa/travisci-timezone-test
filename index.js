@@ -15,8 +15,10 @@ function printIntlDateFormatInfo() {
     
     if (format) {
       if (typeof format.resolvedOptions == 'function') {
+        console.log('This JS env uses the standard Intl.DateTimeFormat#resolvedOptions method.');
         info = format.resolvedOptions();
       } else if (format.resolved) {
+        console.log('This JS env uses the non-standard Intl.DateTimeFormat#resolved property.');
         info = format.resolved;
       }
     }
